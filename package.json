@@ -12,7 +12,10 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress": "2.0.0-rc.0",
+    "vue": "^3.3.13",
     "vuepress-theme-reco": "2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.0"
   }
 }
