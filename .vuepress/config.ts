@@ -7,12 +7,12 @@ export default defineUserConfig({
   description: "Just playing around",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
-    logo: "/logo.png",
-    author: "reco_luan",
-    authorAvatar: "/head.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
-    docsBranch: "main",
-    docsDir: "example",
+    logo: "/logo.jpg",
+    author: "buyan",
+    authorAvatar: "/head.jpg",
+    // docsRepo: "https://github.com/silverx32/silverx32.github.io",
+    // docsBranch: "main",
+    // docsDir: "",
     lastUpdatedText: "",
     // series 为原 sidebar
     series: {
@@ -28,7 +28,6 @@ export default defineUserConfig({
       ],
     },
     navbar: [
-      { text: "Home", link: "/" },
       { text: "Categories", link: "/categories/reco/1/" },
       { text: "Tags", link: "/tags/tag1/1/" },
       {
@@ -106,6 +105,7 @@ export default defineUserConfig({
     //     // hideComments: true // 隐藏评论
     //   },
     // },
+    autoSetSeries:true,
   }),
   // debug: true,
 });
