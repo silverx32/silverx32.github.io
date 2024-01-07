@@ -1,8 +1,8 @@
 ﻿---
-title: vuepress部署
+title: vuepress部署（就是这个网站）
 date: 2023/12/28
 categories:
- - vuepress
+  - 网站搭建
 ---
 
 ## 前期准备
@@ -10,7 +10,7 @@ categories:
 [nodejs官网](https://nodejs.org/en)  ~~捏马，没有中文~~  
 [百度一下，你就知道](https://www.baidu.com/s?ie=UTF-8&wd=nodejs)
 2. 创建文件夹
-- 在本地创建一个文件夹
+- 在本地创建一个文件夹(只要创建文件夹就行)
 ```bash
 mkdir <文件夹名>
 cd <文件夹名>
