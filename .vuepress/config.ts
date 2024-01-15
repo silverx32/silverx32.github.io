@@ -37,6 +37,9 @@ export default defineUserConfig({
       tagText: '标签' // 默认 tags
     },
     // 当 autoAddCategoryToNavbar 为 true 时，则全部取默认值
+    navbar:[
+      {text:"猫国建设者",link:"/Game/kittenGame"},
+    ]
     // navbar: [
     //   { text: "博客", link: "/posts" },
     //   //{ text: "Tags", link: "/tags/tag1/1/" },

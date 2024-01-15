@@ -129,11 +129,11 @@ npm run build
 - 仓库命名为：`<你の名字>.github.io`
 - 等待github action自动部署完成
 - 如图：workflows会先有一个main的进程，然后会有一个Bot的进程
-![github action](/vuepress-01-002.png)  
+![github action](img/vuepress-01/vuepress-01-002.png)  
 - 等待两个进程成功
 
 ### 7. 配置github pages
 - 在仓库的settings里找到github pages  
 - **设置如图**
-![github pages](/vuepress-01-001.png)
+![github pages](img/vuepress-01/vuepress-01-001.png)
 - 打开`<你の名字>.github.io`即可看到效果
